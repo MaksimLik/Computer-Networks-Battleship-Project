@@ -1,17 +1,31 @@
 # Sieci Komputerowe Bitwa w statki
-Bitwa w statki online, serwer TCP, Klient
-
-## Wprowadzenie
-
-Projekt polega na tworzeniu aplikacji (gry) dla nieograniczonej ilości osób.
-Projekt włącza w swój zestaw - serwer w języku C i klient w języku Java. Server jest
-obsługiwany po przez 'Console', sama gra ma GUI (JavaFX).
+## Introduction
+The project includes a server (C++) and a client (Java). The server is served in the console, while the client is in GUI(JavaFX)
+The game is designed for an infinite number of players.
 ####
-Na dzisiejszy moment (w teorii) to działa w +/- taki sposób, że 
-serwer jest wielowątkowym. Wątek podstawowy służy do tworzenia serwera i sprawdzianu aktualnego stanu: numer portu, liczba graczy, liczba gier. 
-Dalej w wątku serwer cały czas szuka nowych klientów. 
-Kiedy mamy połączenie z dwoma klientami tworzy się nowy wątek (pokój), w którym odbywa się gra. 
-Klient przy połączeniu wysyła komunikat do serwera, że jest gotowy. I ropoczyna się gra.
-Jak jeden z graczy wyłącza grę albo ma jakąś awarię to serwer informuje drugiego gracza i zamyka grę.
-####
-P.S. To nie jest cały opis, opis będzie rozszerzał się w miarę możliwości.
+The server is multithreaded. The main thread is used to create the server and check its current status, including the host number, number of players, and number of games. Additionally, the server is always looking for new clients.
+
+When two clients connect, a new stream (room) is created for the game. Once a client connects, it send a message to the server indicating that it's ready to begin the game.
+
+If one of the players disconnects or experiences some kind of failure, the server informs the other player about the issue and closes the game.
+
+## Screens of game and little description:
+
+![BattleSheep](https://user-images.githubusercontent.com/72620745/224512936-6fdca864-ac61-4868-a075-8ccc58e0618a.png)
+
+You should write your nickname and wait for your opponent to do the same.
+
+![3](https://user-images.githubusercontent.com/72620745/224513007-973ddcda-6194-41de-ab0a-0eb1241e494e.png)
+
+After you and your opponent place your ships, you can start shooting at the map
+
+![5](https://user-images.githubusercontent.com/72620745/224513057-bb84eb30-6eee-45f8-8c36-3f06bfe1ce5b.png)
+
+If one of you breaks the connection, the communicator will inform and the game will end.
+If you hit the target, it will be highlighted in red.
+
+## How to open this game on your computer
+
+1. Open the server file in the server folder by running "./main" and specify a port (e.g. 1234).
+2. Open the client file in IntelliJ and configure two games, then compile them.
+3. The client will connect to the server at the address "localhost:(your port number, which you specified when running the server)." You can modify this address in the code if needed.
