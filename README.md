@@ -1,4 +1,4 @@
-# Sieci Komputerowe Bitwa w statki
+# Computer-Networks-Battleship-Project
 ## Introduction
 The project includes a server (C++) and a client (Java). The server is served in the console, while the client is in GUI(JavaFX)
 The game is designed for an infinite number of players.
