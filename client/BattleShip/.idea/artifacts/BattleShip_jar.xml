@@ -1,0 +1,52 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BattleShip:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BattleShip_jar</output-path>
+    <root id="archive" name="BattleShip.jar">
+      <element id="module-output" name="BattleShip" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/19-ea+7/javafx-graphics-19-ea+7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/19-ea+7/javafx-controls-19-ea+7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/19-ea+7/javafx-base-19-ea+7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/19-ea+7/javafx-fxml-19-ea+7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/19-ea+7/javafx-fxml-19-ea+7-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/19-ea+7/javafx-graphics-19-ea+7-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/19-ea+7/javafx-controls-19-ea+7-linux.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/19-ea+7/javafx-base-19-ea+7-linux.jar" path-in-jar="/" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libattach.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libawt.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libawt_headless.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libawt_xawt.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libdt_socket.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libextnet.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libfontmanager.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libinstrument.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libj2gss.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libj2pcsc.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libj2pkcs11.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libjaas.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libjava.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libjavajpeg.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libjawt.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libjdwp.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libjimage.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libjli.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libjsig.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libjsound.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libjsvml.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/liblcms.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libmanagement.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libmanagement_agent.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libmanagement_ext.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libmlib_image.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libnet.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libnio.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libprefs.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/librmi.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libsaproc.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libsctp.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libsplashscreen.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libsyslookup.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libverify.so" />
+      <element id="file-copy" path="$USER_HOME$/jdk-19.0.2/lib/libzip.so" />
+    </root>
+  </artifact>
+</component>
